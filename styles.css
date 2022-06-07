@@ -58,7 +58,14 @@ table {
 .right {
     width: calc(100vw - 500px);
     float: left;
+    font-family: 'Roboto', sans-serif;
 }
+
+.container2 {
+    padding-left: 50px;
+    padding-top: 100px;
+}
+
 #corgi {
     width: 500px;
     height: 100vh;
@@ -93,4 +100,17 @@ table {
     background-color: #000000;
     top: 80px;
     opacity: 0.2;
+}
+.form {
+    display: flex;
+    flex-direction: row;
+}
+
+input {
+    border: 2px solid #E5E7EB;
+}
+
+input:focus {
+    border: 2px solid rgba(81, 203, 238, 1);
+    box-shadow: 0 0 5px #E5E7EB;
 }
