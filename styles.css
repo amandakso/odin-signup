@@ -48,14 +48,17 @@ table {
 }
 .container {
     width: 100vw;
+    display: inline-block;
 }
 .left {
     position: relative;
     width: 40vw;
+    float: left;
 }
 
 .right {
     width: 60vw;
+    float: left;
 }
 #corgi {
     width: 34vw;
