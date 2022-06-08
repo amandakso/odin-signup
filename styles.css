@@ -124,6 +124,14 @@ legend {
     padding-right: 50px;
 }
 
+button {
+    color: #FDE541;
+    background-color: #000000;
+    padding: 0.6em 2em;
+    border-radius: 8px;
+    font-size: 1.1em;
+}
+
 
 input {
     border: 2px solid #E5E7EB;
