@@ -25,31 +25,31 @@
                         <div class="formrow">
                             <div>
                                 <div><label for="first-name">First Name:</label></div>
-                                <div><input type="text" id="first-name" name="first-name"></div>
+                                <div><input autofocus required type="text" id="first-name" name="first-name" placeholder="John"></div>
                             </div>
                             <div>
                                 <div><label for="last-name">Last Name:</label></div>
-                                <div><input type="text" id="last-name" name="last-name"></div>
+                                <div><input required type="text" id="last-name" name="last-name" placeholder="Smith"></div>
                             </div>
                         </div>
                         <div class="formrow">
                             <div>
                                 <div><label for="email">Email:</label></div>
-                                <div><input type="email" id="email" name="email"></div>   
+                                <div><input type="email" id="email" name="email" placeholder="jsmith@example.com"></div>   
                             </div>
                             <div>
                                 <div><label for="phone-number">Phone Number:</label></div>
-                                <div><input type="tel" id="phone-number" name="number"></div>
+                                <div><input type="tel" id="phone-number" name="number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" title="Please enter a valid phone number" placeholder="123-456-7890"></div>
                             </div>
                         </div>
                         <div class="formrow">
                             <div>
                                 <div><label for="password">Password:</label></div>
-                                <div><input type="password" id="password" name="password"></div>
+                                <div class="error"><input type="password" id="password" name="password" placeholder=" "></div>
                             </div>
                             <div>
                                 <div><label for="confirm">Confirm Password:</label></div>
-                                <div><input type="password" id="confirm" name="confirm"></div>
+                                <div class="error"><input type="password" id="confirm" name="confirm" placeholder=" "></div>
                             </div>
                         </div>
                         <button type="submit">Create Account</button>
