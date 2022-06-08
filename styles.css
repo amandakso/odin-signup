@@ -64,6 +64,7 @@ table {
 .container2 {
     padding-left: 50px;
     padding-top: 100px;
+    padding-right: 100px;
 }
 
 #corgi {
@@ -101,10 +102,28 @@ table {
     top: 80px;
     opacity: 0.2;
 }
-.form {
+
+
+legend {
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+.row {
+    padding-bottom: 50px;
+    padding-left: 50px;
+}
+
+.formrow {
     display: flex;
     flex-direction: row;
 }
+
+.formrow > div {
+    padding-bottom: 15px;
+    padding-right: 50px;
+}
+
 
 input {
     border: 2px solid #E5E7EB;
